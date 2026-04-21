@@ -14,12 +14,12 @@
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',                                                                                                                           
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '961619428689288');                                                                                                                                                                                                                                                                                                           
+      fbq('init', '1346675563469865');                                                                                                                                                                                                                                                                                                           
       fbq('track', 'PageView');                                                                                                                                                            
                                                                                                                                                                                            
       async function dispararLead() {                                                                                                                                                      
-        const eventId = 'search_' + Date.now();
-        fbq('track', 'Search', {}, { eventID: eventId });                                                                                                                                  
+        const eventId = 'CompleteRegistration' + Date.now();
+        fbq('track', 'CompleteRegistration', {}, { eventID: eventId });                                                                                                                                  
                                                                                                                                                                                            
         await fetch('https://jotap-api-am.vercel.app/api/lead', {                                                                                                                       
           method: 'POST',                                                                                                                                                                  
@@ -34,7 +34,7 @@
       }           
       </script>
       <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=961619428689288&ev=PageView&noscript=1"                                                                                                          
+      src="https://www.facebook.com/tr?id=1346675563469865&ev=PageView&noscript=1"                                                                                                          
       /></noscript>                                                                                                                                                                        
       <style>                                                                                                                                                                              
           @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,900;1,900&display=swap');                                                                                
